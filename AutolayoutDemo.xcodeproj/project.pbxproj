@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C019B0B11FD3E9F000A3485F /* StackViewSomeOneHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */; };
 		C019B0B41FD3EBC600A3485F /* StackViewSomeOneHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */; };
+		C019B0BA1FD4231700A3485F /* StackViewAllHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0B91FD4231700A3485F /* StackViewAllHeightCell.m */; };
+		C019B0BD1FD4233900A3485F /* StackViewAllHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0BC1FD4233900A3485F /* StackViewAllHeightController.m */; };
 		C02361C81FCD2CA300626303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02361C71FCD2CA300626303 /* AppDelegate.m */; };
 		C02361CE1FCD2CA300626303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02361CC1FCD2CA300626303 /* Main.storyboard */; };
 		C02361D01FCD2CA300626303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02361CF1FCD2CA300626303 /* Assets.xcassets */; };
@@ -26,6 +28,10 @@
 		C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewSomeOneHeightController.m; sourceTree = "<group>"; };
 		C019B0B21FD3EBC600A3485F /* StackViewSomeOneHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewSomeOneHeightCell.h; sourceTree = "<group>"; };
 		C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewSomeOneHeightCell.m; sourceTree = "<group>"; };
+		C019B0B81FD4231700A3485F /* StackViewAllHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewAllHeightCell.h; sourceTree = "<group>"; };
+		C019B0B91FD4231700A3485F /* StackViewAllHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewAllHeightCell.m; sourceTree = "<group>"; };
+		C019B0BB1FD4233900A3485F /* StackViewAllHeightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewAllHeightController.h; sourceTree = "<group>"; };
+		C019B0BC1FD4233900A3485F /* StackViewAllHeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewAllHeightController.m; sourceTree = "<group>"; };
 		C02361C31FCD2CA300626303 /* AutolayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02361C61FCD2CA300626303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C02361C71FCD2CA300626303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +98,10 @@
 				C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */,
 				C019B0B21FD3EBC600A3485F /* StackViewSomeOneHeightCell.h */,
 				C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */,
+				C019B0B81FD4231700A3485F /* StackViewAllHeightCell.h */,
+				C019B0B91FD4231700A3485F /* StackViewAllHeightCell.m */,
+				C019B0BB1FD4233900A3485F /* StackViewAllHeightController.h */,
+				C019B0BC1FD4233900A3485F /* StackViewAllHeightController.m */,
 				C02361CC1FCD2CA300626303 /* Main.storyboard */,
 				C02361CF1FCD2CA300626303 /* Assets.xcassets */,
 				C02361D11FCD2CA300626303 /* LaunchScreen.storyboard */,
@@ -176,6 +186,8 @@
 				C02361D61FCD2CA300626303 /* main.m in Sources */,
 				C02361C81FCD2CA300626303 /* AppDelegate.m in Sources */,
 				C06912FB1FD12BAC00314A50 /* CellSizeCell.m in Sources */,
+				C019B0BD1FD4233900A3485F /* StackViewAllHeightController.m in Sources */,
+				C019B0BA1FD4231700A3485F /* StackViewAllHeightCell.m in Sources */,
 				C019B0B41FD3EBC600A3485F /* StackViewSomeOneHeightCell.m in Sources */,
 				C02361DE1FCD2D4200626303 /* ListTableViewController.m in Sources */,
 				C019B0B11FD3E9F000A3485F /* StackViewSomeOneHeightController.m in Sources */,
