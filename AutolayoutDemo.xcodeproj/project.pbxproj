@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C019B0B11FD3E9F000A3485F /* StackViewSomeOneHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */; };
+		C019B0B41FD3EBC600A3485F /* StackViewSomeOneHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */; };
 		C02361C81FCD2CA300626303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02361C71FCD2CA300626303 /* AppDelegate.m */; };
 		C02361CE1FCD2CA300626303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02361CC1FCD2CA300626303 /* Main.storyboard */; };
 		C02361D01FCD2CA300626303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02361CF1FCD2CA300626303 /* Assets.xcassets */; };
@@ -16,11 +18,14 @@
 		C06912F51FD0F41F00314A50 /* UniformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912F41FD0F41F00314A50 /* UniformViewController.m */; };
 		C06912F81FD12B7100314A50 /* CellSizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912F71FD12B7100314A50 /* CellSizeTableViewController.m */; };
 		C06912FB1FD12BAC00314A50 /* CellSizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912FA1FD12BAC00314A50 /* CellSizeCell.m */; };
-		C06912FE1FD13FEC00314A50 /* InsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912FC1FD13FEC00314A50 /* InsetsLabel.m */; };
 		C0D7E8CE1FCE95DC00173D70 /* SwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D7E8CD1FCE95DC00173D70 /* SwitchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C019B0AF1FD3E9F000A3485F /* StackViewSomeOneHeightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewSomeOneHeightController.h; sourceTree = "<group>"; };
+		C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewSomeOneHeightController.m; sourceTree = "<group>"; };
+		C019B0B21FD3EBC600A3485F /* StackViewSomeOneHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackViewSomeOneHeightCell.h; sourceTree = "<group>"; };
+		C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewSomeOneHeightCell.m; sourceTree = "<group>"; };
 		C02361C31FCD2CA300626303 /* AutolayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02361C61FCD2CA300626303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C02361C71FCD2CA300626303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,8 +42,6 @@
 		C06912F71FD12B7100314A50 /* CellSizeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSizeTableViewController.m; sourceTree = "<group>"; };
 		C06912F91FD12BAC00314A50 /* CellSizeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellSizeCell.h; sourceTree = "<group>"; };
 		C06912FA1FD12BAC00314A50 /* CellSizeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSizeCell.m; sourceTree = "<group>"; };
-		C06912FC1FD13FEC00314A50 /* InsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetsLabel.m; sourceTree = "<group>"; };
-		C06912FD1FD13FEC00314A50 /* InsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetsLabel.h; sourceTree = "<group>"; };
 		C0D7E8CC1FCE95DC00173D70 /* SwitchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchController.h; sourceTree = "<group>"; };
 		C0D7E8CD1FCE95DC00173D70 /* SwitchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +88,10 @@
 				C06912F71FD12B7100314A50 /* CellSizeTableViewController.m */,
 				C06912F91FD12BAC00314A50 /* CellSizeCell.h */,
 				C06912FA1FD12BAC00314A50 /* CellSizeCell.m */,
-				C06912FD1FD13FEC00314A50 /* InsetsLabel.h */,
-				C06912FC1FD13FEC00314A50 /* InsetsLabel.m */,
+				C019B0AF1FD3E9F000A3485F /* StackViewSomeOneHeightController.h */,
+				C019B0B01FD3E9F000A3485F /* StackViewSomeOneHeightController.m */,
+				C019B0B21FD3EBC600A3485F /* StackViewSomeOneHeightCell.h */,
+				C019B0B31FD3EBC600A3485F /* StackViewSomeOneHeightCell.m */,
 				C02361CC1FCD2CA300626303 /* Main.storyboard */,
 				C02361CF1FCD2CA300626303 /* Assets.xcassets */,
 				C02361D11FCD2CA300626303 /* LaunchScreen.storyboard */,
@@ -171,9 +176,10 @@
 				C02361D61FCD2CA300626303 /* main.m in Sources */,
 				C02361C81FCD2CA300626303 /* AppDelegate.m in Sources */,
 				C06912FB1FD12BAC00314A50 /* CellSizeCell.m in Sources */,
+				C019B0B41FD3EBC600A3485F /* StackViewSomeOneHeightCell.m in Sources */,
 				C02361DE1FCD2D4200626303 /* ListTableViewController.m in Sources */,
+				C019B0B11FD3E9F000A3485F /* StackViewSomeOneHeightController.m in Sources */,
 				C06912F51FD0F41F00314A50 /* UniformViewController.m in Sources */,
-				C06912FE1FD13FEC00314A50 /* InsetsLabel.m in Sources */,
 				C0D7E8CE1FCE95DC00173D70 /* SwitchController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

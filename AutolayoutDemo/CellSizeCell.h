@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "InsetsLabel.h"
 
 @interface CellSizeCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *title;
-@property (weak, nonatomic) IBOutlet InsetsLabel *detail;
+@property (weak, nonatomic) IBOutlet UILabel *detail;
 
 @end
