@@ -31,13 +31,17 @@ static NSString *const StackViewAllHeightCellIndentifier = @"StackViewAllHeightC
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 80;
 
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
 
+}
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -45,22 +49,24 @@ static NSString *const StackViewAllHeightCellIndentifier = @"StackViewAllHeightC
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return 20;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     StackViewAllHeightCell *cell = [tableView dequeueReusableCellWithIdentifier:StackViewAllHeightCellIndentifier forIndexPath:indexPath];
-    [cell setStairTitles:[_titles subarrayWithRange:NSMakeRange(0, indexPath.row % 4 + 1)]];
-
+    [cell setStairTitles:[_titles subarrayWithRange:NSMakeRange(0, indexPath.row % 4 + 1)] ];
 
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 100;
-}
-
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    return UITableViewAutomaticDimension;
+//}
+//- (CGFloat)tableView:(UITableView *)tableView
+//estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    return UITableViewAutomaticDimension;
+//}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

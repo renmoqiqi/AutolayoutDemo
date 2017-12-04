@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^RefreshCell)(void);
+
 @interface StackViewAllHeightCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIStackView *bgStackView;
 
 - (void)setStairTitles:(NSArray <NSString *> *)titles;
+
+
+@property (copy, nonatomic) RefreshCell refreshCell;
+
 
 @end
