@@ -20,6 +20,7 @@
 		C06912F51FD0F41F00314A50 /* UniformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912F41FD0F41F00314A50 /* UniformViewController.m */; };
 		C06912F81FD12B7100314A50 /* CellSizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912F71FD12B7100314A50 /* CellSizeTableViewController.m */; };
 		C06912FB1FD12BAC00314A50 /* CellSizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C06912FA1FD12BAC00314A50 /* CellSizeCell.m */; };
+		C07902EA1FD641C70038F0DE /* IncreasingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07902E91FD641C70038F0DE /* IncreasingController.m */; };
 		C0D7E8CE1FCE95DC00173D70 /* SwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D7E8CD1FCE95DC00173D70 /* SwitchController.m */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		C06912F71FD12B7100314A50 /* CellSizeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSizeTableViewController.m; sourceTree = "<group>"; };
 		C06912F91FD12BAC00314A50 /* CellSizeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellSizeCell.h; sourceTree = "<group>"; };
 		C06912FA1FD12BAC00314A50 /* CellSizeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSizeCell.m; sourceTree = "<group>"; };
+		C07902E81FD641C70038F0DE /* IncreasingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncreasingController.h; sourceTree = "<group>"; };
+		C07902E91FD641C70038F0DE /* IncreasingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncreasingController.m; sourceTree = "<group>"; };
 		C0D7E8CC1FCE95DC00173D70 /* SwitchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchController.h; sourceTree = "<group>"; };
 		C0D7E8CD1FCE95DC00173D70 /* SwitchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +105,8 @@
 				C019B0B91FD4231700A3485F /* StackViewAllHeightCell.m */,
 				C019B0BB1FD4233900A3485F /* StackViewAllHeightController.h */,
 				C019B0BC1FD4233900A3485F /* StackViewAllHeightController.m */,
+				C07902E81FD641C70038F0DE /* IncreasingController.h */,
+				C07902E91FD641C70038F0DE /* IncreasingController.m */,
 				C02361CC1FCD2CA300626303 /* Main.storyboard */,
 				C02361CF1FCD2CA300626303 /* Assets.xcassets */,
 				C02361D11FCD2CA300626303 /* LaunchScreen.storyboard */,
@@ -182,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07902EA1FD641C70038F0DE /* IncreasingController.m in Sources */,
 				C06912F81FD12B7100314A50 /* CellSizeTableViewController.m in Sources */,
 				C02361D61FCD2CA300626303 /* main.m in Sources */,
 				C02361C81FCD2CA300626303 /* AppDelegate.m in Sources */,
