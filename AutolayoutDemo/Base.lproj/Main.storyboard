@@ -209,7 +209,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="77.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cell自适应高度" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFk-FN-FAL">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 给同一个属性添加多重约束，实现复杂关系" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFk-FN-FAL">
                                                     <rect key="frame" x="24" y="8" width="327" height="62"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -252,7 +252,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7eV-q6-HXD">
-                                <rect key="frame" x="29" y="299" width="316" height="68"/>
+                                <rect key="frame" x="29.5" y="299.5" width="316" height="68"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="X1R-bd-HmK">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="68"/>
@@ -285,7 +285,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRY-xU-lKH">
-                                <rect key="frame" x="89.5" y="433" width="196" height="31"/>
+                                <rect key="frame" x="89.5" y="433.5" width="196" height="31"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viv-uR-k0z">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -350,7 +350,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDJ-28-J5r">
-                                <rect key="frame" x="127" y="567" width="120" height="80"/>
+                                <rect key="frame" x="127.5" y="567" width="120" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aDJ-28-J5r" secondAttribute="height" multiplier="1.5:1" id="Uep-YY-KGN"/>
@@ -382,7 +382,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="22j-tt-Jva">
-                                <rect key="frame" x="71" y="299" width="232" height="68"/>
+                                <rect key="frame" x="71.5" y="299.5" width="232" height="68"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="BME-fg-E55">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="68"/>
@@ -550,24 +550,24 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="231.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="iqM-yC-1fS">
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="iqM-yC-1fS">
                                             <rect key="frame" x="59" y="24" width="256" height="183"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机发空间阿萨德开发商快速的减肥卡拉斯京地方开始的肌肤" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="64" translatesAutoresizingMaskIntoConstraints="NO" id="r2y-su-V5p">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机发空间阿萨德开发商快速的减肥卡拉斯京地方开始的肌肤" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="52" translatesAutoresizingMaskIntoConstraints="NO" id="r2y-su-V5p">
                                                     <rect key="frame" x="0.0" y="0.0" width="52" height="183"/>
                                                     <color key="backgroundColor" red="0.14117647059999999" green="0.76862745099999996" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="谁的粉丝疯狂是洛克菲勒；是可发电量斯库拉多夫舒服" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="64" translatesAutoresizingMaskIntoConstraints="NO" id="8eU-T3-gWg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="谁的粉丝疯狂是洛克菲勒；是可发电量斯库拉多夫舒服" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="52" translatesAutoresizingMaskIntoConstraints="NO" id="8eU-T3-gWg">
                                                     <rect key="frame" x="102" y="0.0" width="52" height="162.5"/>
                                                     <color key="backgroundColor" red="0.098039215690000001" green="0.52941176469999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泡打粉过得房率高；得房率高；对了；富贵" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="64" translatesAutoresizingMaskIntoConstraints="NO" id="vn9-fb-nJz">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泡打粉过得房率高；得房率高；对了；富贵" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="52" translatesAutoresizingMaskIntoConstraints="NO" id="vn9-fb-nJz">
                                                     <rect key="frame" x="204" y="0.0" width="52" height="142.5"/>
                                                     <color key="backgroundColor" red="1" green="0.41960784309999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -578,10 +578,9 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="iqM-yC-1fS" firstAttribute="leading" secondItem="pEA-dL-MGU" secondAttribute="leading" constant="59" id="Fsb-nc-xWU"/>
                                         <constraint firstItem="iqM-yC-1fS" firstAttribute="top" secondItem="pEA-dL-MGU" secondAttribute="top" constant="24" id="OOE-Yb-y1c"/>
                                         <constraint firstAttribute="bottom" secondItem="iqM-yC-1fS" secondAttribute="bottom" constant="24.5" id="PK6-PX-8qM"/>
-                                        <constraint firstAttribute="trailing" secondItem="iqM-yC-1fS" secondAttribute="trailing" constant="60" id="ekA-te-ncs"/>
+                                        <constraint firstItem="iqM-yC-1fS" firstAttribute="centerX" secondItem="pEA-dL-MGU" secondAttribute="centerX" id="tfP-vb-psz"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
